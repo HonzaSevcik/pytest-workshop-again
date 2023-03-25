@@ -9,7 +9,7 @@ def fizzbuzz(arg):
 
 import pytest
 
-@pytest.mark.parametrize('number', [1, 2, 4, 7, 11])
+@pytest.mark.parametrize('number', [1, 2, 4, 7, 11, 19])
 def test_fizzbuzz_number_returns_number(number):
     assert fizzbuzz(number) == str(number)
 
